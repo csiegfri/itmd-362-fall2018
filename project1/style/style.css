@@ -47,8 +47,20 @@ table {
 	border-spacing: 0;
 }
 
+div{
+	padding: 1.2em;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 html{
 	line-height: 1.2em;
 	font-family: 'Roboto Slab', serif;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480){
+
+}
+
+@media (min-width : 768){
+	
 }
