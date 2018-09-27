@@ -23,13 +23,13 @@
       </div>
       <form>
         <div>
-          <label>Enter your username:</label><input type="text" ng-model="uname" pattern="[A-Za-z\s]" placeholder="username" required>
+          <label>Enter your username:</label><input type="text" ng-model="uname" pattern="[A-Za-z\s]" placeholder="username" required> <span></span>
         </div>
         <div>
-          <label>Enter your email:</label><input type="email" ng-model="email" placeholder="you@dot.com" required>
+          <label>Enter your email:</label><input type="email" ng-model="email" placeholder="you@dot.com" required> <span></span>
         </div>
         <div> 
-          <input type="button" ng-click="register(uname, email)" value="REGISTER">>
+          <input type="submit" ng-click="register(uname, email)" value="REGISTER">>
         </div>
       </form>
     </div>
