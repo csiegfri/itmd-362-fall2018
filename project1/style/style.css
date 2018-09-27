@@ -62,6 +62,9 @@ html{
 		font-size: 1.25em;
 		/*Typically screen sizes are around 411 wide, font defaults at 20px*/
 	}
+	h1{
+		font-size: 1.7em;
+	}
 	img{
 		width: 80%;
 		height: 80%;
