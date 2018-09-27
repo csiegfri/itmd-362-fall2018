@@ -89,3 +89,14 @@ h1{
 	font-size: 2em;
 	font-weight: bold;
 }
+input:invalid + span:after {
+    content: '✖';
+    color: #f00;
+    padding-left: 5px;
+}
+
+input:valid + span:after {
+    content: '✓';
+    color: #26b72b;
+    padding-left: 5px;
+}
