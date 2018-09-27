@@ -23,7 +23,7 @@
       </div>
       <form>
         <div>
-          <label>Enter your username:</label><input type="text" ng-model="uname" pattern="[A-Za-z\s]" placeholder="username" required> <span></span>
+          <label>Enter your username (Letters only):</label><input type="text" ng-model="uname" pattern="[A-Za-z\s]+" minlength="3" maxlength="16" placeholder="username" required> <span></span>
         </div>
         <div>
           <label>Enter your email:</label><input type="email" ng-model="email" placeholder="you@dot.com" required> <span></span>
