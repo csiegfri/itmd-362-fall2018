@@ -5,6 +5,6 @@ app.controller('MainCtrl', function($scope)
     mail = $scope.email;
 
     $scope.register=function(name, mail){
-        alert("Congratulations, " + name + ", you're in. Expect an email at " + mail + " in the future.")
+        alert("Congratulations, " + name + ", you're in. Expect an email at " + mail + " in the near future.")
     }
 });
